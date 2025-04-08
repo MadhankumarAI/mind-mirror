@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "client/dist"
+  functions = "netlify/functions"
+
+[functions]
+  python_runtime = "python3.9"
