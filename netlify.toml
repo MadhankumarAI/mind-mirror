@@ -1,9 +1,9 @@
 
 [build]
-  base = "client"                # Where React project lives
-  publish = "dist"              # Where Vite builds output
-  command = "npm run build"     # Build command
+  base = "client"
+  publish = "dist"
+  command = "npm run build"
 
 [functions]
-  directory = "../netlify/functions"   # Path from "client" folder to functions folder
+  directory = "netlify/functions"
   python_runtime = "python3.9"
